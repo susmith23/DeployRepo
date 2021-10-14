@@ -8,6 +8,7 @@ global class LeadProcessor implements Database.Batchable <SObject> {
     global void execute(Database.BatchableContext bc, List<Lead> scope){
         for(Lead l: scope){
             l.LeadSource='DreamForce';
+            System.debug(job);
         }
         update scope;
     }
