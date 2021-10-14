@@ -16,6 +16,6 @@ global class LeadProcessor implements Database.Batchable <SObject> {
     global void finish(Database.BatchableContext bc){
         Id job= bc.getJobId();
         System.debug('job');
-        System.debug('job');
+        System.debug('this is job');
     }
 }
