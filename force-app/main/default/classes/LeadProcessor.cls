@@ -8,14 +8,14 @@ global class LeadProcessor implements Database.Batchable <SObject> {
     global void execute(Database.BatchableContext bc, List<Lead> scope){
         for(Lead l: scope){
             l.LeadSource='DreamForce';
-            System.debug(job1);
+            
         }
         update scope;
     }
 //FINISH METHOD
     global void finish(Database.BatchableContext bc){
         Id job= bc.getJobId();
-        System.debug(job);
-        System.debug(job);
+        System.debug('job');
+        System.debug('job');
     }
 }
