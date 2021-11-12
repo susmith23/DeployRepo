@@ -37,8 +37,13 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>*</members>
-        <name>StaticResource</name>
+        <members>Account.Account Field Updation</members>
+        <name>WorkflowRule</name>
     </types>
+    <types>
+        <members>Account.Update Customer Priority</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+   
     <version>52.0</version>
 </Package>
