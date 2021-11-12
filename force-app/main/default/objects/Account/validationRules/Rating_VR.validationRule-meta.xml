@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating_VR</fullName>
+    <active>true</active>
+    <description>.</description>
+    <errorConditionFormula>IF( AND( ISPICKVAL( Industry , &apos;Agriculture&apos;) ,  NOT(ISPICKVAL( Rating , &apos;Hot&apos;)) ) , true, false)</errorConditionFormula>
+    <errorDisplayField>Rating</errorDisplayField>
+    <errorMessage>Error</errorMessage>
+</ValidationRule>

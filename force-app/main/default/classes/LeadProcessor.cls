@@ -11,8 +11,7 @@ global class LeadProcessor implements Database.Batchable <SObject> {
             
         }
         update scope;
-        System.debug('heyyou');
-        System.debug('added for test');
+        System.debug('hey you');
     }
 //FINISH METHOD
     global void finish(Database.BatchableContext bc){

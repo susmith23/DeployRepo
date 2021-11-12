@@ -29,6 +29,14 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
+        <members>Account.Rating_VR</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <member>Account PB</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <members>*</members>
         <name>StaticResource</name>
     </types>
