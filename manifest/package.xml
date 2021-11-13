@@ -33,8 +33,12 @@
         <name>ValidationRule</name>
     </types>
     <types>
-        <member>Account_PB</members>
+        <member>Account PB</members>
         <name>Flow</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <name>Workflow</name>
     </types>
     <types>
         <members>Account.Account Field Updation</members>
