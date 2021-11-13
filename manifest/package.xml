@@ -33,6 +33,10 @@
         <name>ValidationRule</name>
     </types>
     <types>
+        <members>Account</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <member>Account PB</members>
         <name>Flow</name>
     </types>
