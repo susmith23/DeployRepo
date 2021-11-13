@@ -33,7 +33,7 @@
         <name>ValidationRule</name>
     </types>
     <types>
-        <member>Account PB</members>
+        <member>Account_PB</members>
         <name>Flow</name>
     </types>
     <types>
@@ -41,7 +41,7 @@
         <name>WorkflowRule</name>
     </types>
     <types>
-        <members>Account.Update Customer Priority</members>
+        <members>Account.Update</members>
         <name>WorkflowFieldUpdate</name>
     </types>
    
