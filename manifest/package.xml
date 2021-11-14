@@ -32,12 +32,9 @@
         <members>Account.Rating_VR</members>
         <name>ValidationRule</name>
     </types>
+    
     <types>
-        <members>Account</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <member>Account PB</members>
+        <members>Account_PB-1</members>
         <name>Flow</name>
     </types>
     <types>
@@ -53,5 +50,5 @@
         <name>WorkflowFieldUpdate</name>
     </types>
    
-    <version>52.0</version>
+    <version>53.0</version>
 </Package>
