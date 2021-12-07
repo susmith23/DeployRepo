@@ -14,6 +14,7 @@ global class LeadProcessor implements Database.Batchable <SObject> {
         System.debug('hey you');
         System.debug('Added Latest');
         System.debug('Added123');
+        System.debug('hey you');
     }
     
 //FINISH METHOD
